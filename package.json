@@ -21,5 +21,6 @@
     "build": "gulp",
     "dev": "gulp serve",
     "publish": "git add overwebs-hero-data.js"
-  }
+  },
+  "version": "1.0.0"
 }
