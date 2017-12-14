@@ -1,6 +1,4 @@
-import { GluonElement } from '../gluonjs/gluon.js';
-
-let heroData = {
+export const heroes = {
   ana: {
     id: 'ana',
     name: 'Ana',
@@ -163,11 +161,3 @@ let heroData = {
     background: false
   }
 };
-
-class OverwebsHeroData extends GluonElement {
-  get heroes() {
-    return heroData;
-  }
-}
-
-customElements.define(OverwebsHeroData.is, OverwebsHeroData);

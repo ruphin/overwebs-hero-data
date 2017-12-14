@@ -1076,12 +1076,6 @@ glogg@^1.0.0:
   dependencies:
     sparkles "^1.0.0"
 
-gluonjs@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/gluonjs/-/gluonjs-2.0.2.tgz#8b0228a4c2ca9b2c2dd35adb042bb9aaa4c80495"
-  dependencies:
-    lit-html "^0.6.0"
-
 graceful-fs@4.X, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.1.9:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
@@ -1557,10 +1551,6 @@ liftoff@^2.1.0:
 limiter@^1.0.5:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/limiter/-/limiter-1.1.0.tgz#6e2bd12ca3fcdaa11f224e2e53c896df3f08d913"
-
-lit-html@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-0.6.0.tgz#3d756ea67f6d0cac1c0e78ef9e52d4335198b728"
 
 load-json-file@^1.0.0:
   version "1.1.0"

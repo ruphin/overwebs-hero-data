@@ -2,8 +2,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-<script type="module" src="src/overwebs-hero-data.js"></script>
-
 <style>
   body {
     margin: 0;
@@ -33,10 +31,11 @@
 <span id="browser-sync-binding"></span>
 <!-- endbuild -->
 
-<overwebs-hero-data id="hero-data"></overwebs-hero-data>
 <div id="plaintext"></div>
 
 <script type="module">
-  console.log(document.getElementById('hero-data').heroes)
-  document.getElementById('plaintext').innerText = JSON.stringify(document.getElementById('hero-data').heroes);
+  import { heroes } from './src/overwebs-hero-data.js'
+
+  console.log(heroes)
+  document.getElementById('plaintext').innerText = JSON.stringify(heroes);
 </script>
