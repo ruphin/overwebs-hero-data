@@ -1,4 +1,4 @@
-export const heroes = {
+export const heroData = {
   ana: {
     id: 'ana',
     name: 'Ana',
