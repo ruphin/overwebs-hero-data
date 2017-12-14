@@ -1,0 +1,25 @@
+{
+  "name": "overwebs-hero-data",
+  "description": "Overwebs Hero Data Web Component",
+  "main": "overwebs-hero-data.js",
+  "repository": "git@github.com:ruphin/overwebs-hero-data.git",
+  "author": "Goffert van Gool",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "connect-history-api-fallback": "^1.3.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify-es": "^0.1.3"
+  },
+  "dependencies": {
+    "gluonjs": "^2.0.2"
+  },
+  "scripts": {
+    "build": "gulp",
+    "dev": "gulp serve",
+    "publish": "git add overwebs-hero-data.js"
+  }
+}
