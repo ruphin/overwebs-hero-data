@@ -27,15 +27,11 @@
   }
 </style>
 
-<!-- build:remove -->
-<span id="browser-sync-binding"></span>
-<!-- endbuild -->
-
 <div id="plaintext"></div>
 
 <script type="module">
-  import { heroes } from './src/overwebs-hero-data.js'
+  import { heroData } from './src/overwebs-hero-data.js'
 
-  console.log(heroes)
-  document.getElementById('plaintext').innerText = JSON.stringify(heroes);
+  console.log(heroData)
+  document.getElementById('plaintext').innerText = JSON.stringify(heroData);
 </script>
